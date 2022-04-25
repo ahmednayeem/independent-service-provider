@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "Beach Wedding",
+        "price": "300",
+        "description": "Whether or not you’re actually getting married at the beach, this wedding style is all about pairing nature-inspired details (seashells, driftwood, tropical flowers,",
+        "img": "https://sunandseabeachweddings.com/wp-content/uploads/2018/03/119.jpg",
+        "book": "Book Now"
+    },
+    {
+        "id": 2,
+        "name": "Tropical Wedding",
+        "price": "100",
+        "description": "Bright colors, eye-catching details, and playful elements like citrus fruits and oversized greenery are all elements of tropical wedding stye.",
+        "img": "https://i0.wp.com/whimsicalwonderlandweddings.com/wp-content/uploads/2021/01/Tropical-Bohemian-Wedding-Kate-Boston-32.jpg",
+        "book": "Book Now"
+    },
+    {
+        "id": 3,
+        "name": "Bohemian Wedding",
+        "price": "150",
+        "description": "This style is for the hippies (or hippies-at-heart of the world. Bohemian wedding style is best known for flower crowns, oversized bouquets, mismatched bridesmaid dresses",
+        "img": "https://i1.wp.com/whimsicalwonderlandweddings.com/wp-content/uploads/2021/10/Boho-Spring-Wedding-Jessica-Holt-Photography-37.jpg",
+        "book": "Book Now"
+    },
+    {
+        "id": 4,
+        "name": "Classic  Wedding",
+        "price": "180",
+        "description": "Classic wedding style is ideal if you’re looking to evoke timeless elegance and the utmost sophistication on your wedding day.If you're looking to create an event that's luxurious, chic",
+        "img": "https://vinesoftheyarravalley.com.au/wp-content/uploads/2020/06/bride-and-groom-1024x683.jpg",
+        "book": "Book Now"
+    },
+    {
+        "id": 5,
+        "name": "Glamorous Wedding",
+        "price": "100",
+        "description": "If you love to make a statement, glamorous wedding style might be the perfect fit for you. It’s a fabulous opportunity to go all out with your wedding details, from sparkly table linens and strands",
+        "img": "https://ruffledblog.com/wp-content/uploads/Glam-All-White-Southern-Wedding-11-900x600.jpg",
+        "book": "Book Now"
+    },
+    {
+        "id": 6,
+        "name": "Minimalist Wedding",
+        "price": "300",
+        "description": "For couples embracing a “less is more” mindset, minimalist wedding style is a great alternative to other aesthetics that put an emphasis on elaborate details and statement-making pieces.",
+        "img": "https://weddingbells.ca/wp-content/uploads/2019/11/A-Modern-Minimalist-Wedding-with-Floral-Accents-in-Toronto-96-768x512.jpg",
+        "book": "Book Now"
+    }
+]
