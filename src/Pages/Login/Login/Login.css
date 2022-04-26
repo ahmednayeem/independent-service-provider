@@ -9,6 +9,9 @@
     background: #ECE6CE;
     
 }
+.from input{
+    height: 50px;
+}
 
 .loginbutton{
     width: 150px;
