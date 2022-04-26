@@ -1,18 +1,51 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { Carousel } from 'react-bootstrap';
 import './Banner.css'
 
 const Banner = () => {
-    return (
-        <div className='pic'>
-           <div className='home'>
-           <div  className='banner'>
-            <h1 className='text-white'>Pictures that makes your special memories</h1>
-            <p className='text-white'>I am a documentary wedding and portrait photographer, based in Phoenix Arizona. I have photographed weddings now for over 25 years and I still have things to learn, I still practice and seek advice. But no matter how difficult a day is, it’s still good because I get to make photographs</p>
-            <button className='book'>Book Now</button>
-    
-            </div>
-           </div>
+    const [index, setIndex] = useState(0);
+
+    const handleSelect = (selectedIndex, e) => {
+      setIndex(selectedIndex);
+    };
+   
+    return (    
+    <Carousel activeIndex={index} onSelect={handleSelect}>
+    <Carousel.Item>
+      <div
+        className="d-block w-100 pic1 opacity">
         </div>
+      <Carousel.Caption>
+        <h1 className='font'>First slide label</h1>
+        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+      </Carousel.Caption>
+    </Carousel.Item>
+    <Carousel.Item>
+      <div
+        className="d-block w-100 pic2 opacity">
+        </div>
+
+      <Carousel.Caption>
+        <h1 className='font'>Second slide label</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </Carousel.Caption>
+    </Carousel.Item>
+    <Carousel.Item>
+      <div
+        className="d-block w-100 pic3 opacity">
+        </div>
+
+      <Carousel.Caption>
+        <h1 className='font'>Third slide label</h1>
+        <p>
+          Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+        </p>
+      </Carousel.Caption>
+    </Carousel.Item>
+  </Carousel>
+  
+    
+      
     );
 };
 
