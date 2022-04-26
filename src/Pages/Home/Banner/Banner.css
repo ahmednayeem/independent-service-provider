@@ -26,3 +26,16 @@
 .font{
     font-size: 50px;
 }
+
+
+@media only screen and (max-width:576px) {
+    .pic1{
+        height: 50vh;
+    }
+    .pic2{
+        height: 50vh;
+    }
+    .pic3{
+        height: 50vh;
+    }
+}

@@ -2,7 +2,7 @@ import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
 import logo from './img/logo.png'
 import './Header.css'
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 const Header = () => {
     return (
@@ -14,13 +14,13 @@ const Header = () => {
   <Container>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
-    <Nav className="me-auto nav">
-      <Nav.Link as={Link} to="/">Home</Nav.Link>
-      <Nav.Link as={Link} to="about">About</Nav.Link>
-      <Nav.Link as={Link} to="blogs">Blogs</Nav.Link>
+    <Nav className="me-auto">
+    <NavLink to="/">Home</NavLink>
+    <NavLink to="/about">About</NavLink>
+     <NavLink to="/blogs">Blogs</NavLink>
     </Nav>
-    <Nav className='nav'>
-    <Nav.Link as={Link} to="login">Login</Nav.Link>
+    <Nav>
+    <NavLink className="text-decoration-none" to="login" activeClassName="active">Login</NavLink>
     </Nav>
   </Navbar.Collapse>
   </Container>

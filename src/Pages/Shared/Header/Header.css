@@ -1,6 +1,21 @@
-.nav{
-    font-size: 19px;
-}
 .log{
-    margin-left: 100px;
+    margin-left: 150px;
+}
+nav a.active{
+    color:#fff;
+ 
+}
+
+a{
+    text-decoration: none;
+    color:#F9AC66;
+    font-size: 19px;
+    margin-right: 60px; 
+}
+a:hover{
+    color:#F9AC66;
+}
+
+.logIn{
+    margin-left: 22px;
 }

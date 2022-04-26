@@ -1,0 +1,30 @@
+
+.from{
+    border: 1px solid #ECE6CE;
+    margin-top: 50px;
+    padding: 10px;
+    border-radius: 7px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    width: 25%;
+    background: #ECE6CE;
+    
+}
+
+.loginbutton{
+    width: 150px;
+    height: 50px;
+    font-size: 19px;
+    background: #FFBB75;
+    border: #62C5EA;
+}
+
+.loginbutton:hover{
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    background: #FDAE38;
+    transition: 0.4s;
+
+}   
+
+.headerlogin{
+    color:#F98E3D
+}
