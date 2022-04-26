@@ -1,6 +1,6 @@
 
 .pic1{
-    height: 80vh;
+    height: 85vh;
     background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('./images/banner-1.jpg');
     background-size: cover;
     background-position: center;
@@ -8,7 +8,7 @@
 }
 
 .pic2{
-    height: 80vh;
+    height: 85vh;
     background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('./images/banner-2.jpg');
     background-size: cover;
     background-position: center;
@@ -16,7 +16,7 @@
 }
 
 .pic3{
-    height: 80vh;
+    height: 85vh;
     background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('./images/banner-3.jpg');
     background-size: cover;
     background-position: center;

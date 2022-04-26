@@ -16,8 +16,7 @@ const Banner = () => {
         className="d-block w-100 pic1 opacity">
         </div>
       <Carousel.Caption>
-        <h1 className='font'>First slide label</h1>
-        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        <h1 className='font'>Marriage is a Sacred Bond </h1>
       </Carousel.Caption>
     </Carousel.Item>
     <Carousel.Item>
@@ -26,8 +25,7 @@ const Banner = () => {
         </div>
 
       <Carousel.Caption>
-        <h1 className='font'>Second slide label</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <h1 className='font'>Marriage Unites two Human Beings </h1>
       </Carousel.Caption>
     </Carousel.Item>
     <Carousel.Item>
@@ -36,10 +34,7 @@ const Banner = () => {
         </div>
 
       <Carousel.Caption>
-        <h1 className='font'>Third slide label</h1>
-        <p>
-          Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-        </p>
+        <h1 className='font'>Beauty Comes to Society Through Marriage</h1>
       </Carousel.Caption>
     </Carousel.Item>
   </Carousel>
