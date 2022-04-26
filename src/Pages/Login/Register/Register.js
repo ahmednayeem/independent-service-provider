@@ -18,7 +18,7 @@ const Register = () => {
     }
 
     if(user){
-        navigate('/home');
+        navigate('/');
     }
 
     const handleRegister = event =>{
