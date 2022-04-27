@@ -1,8 +1,9 @@
 import React from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import { useCreateUserWithEmailAndPassword } from 'react-firebase-hooks/auth';
+import { useCreateUserWithEmailAndPassword, useUpdateProfile } from 'react-firebase-hooks/auth';
 import './Register.css';
 import auth from '../../../firebase.init';
+import SocialLogin from '../SocialLogin/SocialLogin';
 
 const Register = () => {
     const [
@@ -10,7 +11,11 @@ const Register = () => {
         user,
         loading,
         error,
-      ] = useCreateUserWithEmailAndPassword(auth);
+      ] = useCreateUserWithEmailAndPassword(auth, {sendEmailVerification: true});
+
+      const [updateProfile, updating, updateError] = useUpdateProfile(auth);
+
+
     const navigate = useNavigate();
 
     const navigateLogin = () =>{
@@ -18,30 +23,34 @@ const Register = () => {
     }
 
     if(user){
-        navigate('/');
+        console.log('user', user);
     }
 
-    const handleRegister = event =>{
+    const handleRegister = async (event) =>{
         event.preventDefault();
         const name = event.target.name.value;
         const email = event.target.email.value;
         const password = event.target.password.value;
 
-        createUserWithEmailAndPassword(email, password);
+        await createUserWithEmailAndPassword(email, password);
+        await updateProfile({ displayName: name });
+        console.log('Updated profile'); 
+        navigate('/');
     }
 
     return (
         <div className='register-form'>
-            <h2 style={{textAlign: 'center'}}>Please Register</h2>
+            <h2 className='fs-1 headerRegister' style={{textAlign: 'center'}}>Please Register</h2>
             <form onSubmit={handleRegister}>
                 <input type="text" name="name" id="" placeholder='Your Name'/>
                 
                 <input type="email" name="email" id="" placeholder='Email Address' required/>
                 
                 <input type="password" name="password" id="" placeholder='Password' required/>
-                <input className='regis' type="submit" value="Register" />
+                <input className='regis d-block mx-auto' type="submit" value="Register" />
             </form>
-            <p>Already have an account? <Link to="/login" className='text-danger pe-auto text-decoration-none' onClick={navigateLogin}>Please Login</Link> </p>
+            <p className='fs-5'>Already have an account? <Link to="/login" className='text-primary pe-auto text-decoration-none' onClick={navigateLogin}>Please Login</Link> </p>
+            <SocialLogin></SocialLogin>
         </div>
     );
 };

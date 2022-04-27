@@ -1,0 +1,63 @@
+.aboutPic{
+    width: 50%;
+    height: 50vh;
+     border-radius: 10%
+}
+h1{
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 10px;
+}
+
+.myself{
+    
+        border: 1px solid lightgray;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+        border-radius: 10px;
+        text-align: center;
+        padding-bottom: 20px;
+        width: 30%;
+        margin: auto;
+        height: 80vh;
+        margin-top: 40px;
+        background: #ECE6CE;
+   
+}
+
+.myself p{
+    font-size: 20px;
+    text-align: left;
+    margin-left: 50px;
+    margin-right: 40px;
+}
+
+@media only screen and (min-width:280px) and (max-width:375px){
+    .myself{
+        width: 80%;
+        height: 115vh;
+        
+    }
+}
+  
+
+@media only screen and (min-width:376px) and (max-width:576px) {
+    .myself{
+        width: 80%;
+        height: 95vh;
+    }
+}
+
+
+@media only screen and (min-width:577px) and (max-width:992px) {
+    .myself{
+        width: 80%;
+        height: 80vh;
+    }
+}
+
+
+@media only screen and (min-width:992px) and (max-width:1440px) {
+    .myself{
+        width: 50%;
+        height: 100vh;
+    }
+}

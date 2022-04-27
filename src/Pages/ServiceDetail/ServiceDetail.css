@@ -1,0 +1,19 @@
+.serviceDetails{
+    text-align: center;
+    font-size: 60px;
+    background: #ECE6CE;
+    padding: 15px;
+    font-style: italic;
+    color:#E28743;
+}
+
+.serviceButton{
+    margin-top: 50px;
+    background: #00CECF;
+    color:#fff;
+    width: 250px;
+    height: 50px;
+    border: none;
+    border-radius: 7px;
+    font-size: 23px;
+}

@@ -1,0 +1,11 @@
+.checkout{
+    background: #25BEC2;
+    color:#fff;
+    border-radius: 7px;
+    height: 70px;
+}
+.checkout h2{
+    margin-left: 30px;
+    font-style: italic;
+    
+}

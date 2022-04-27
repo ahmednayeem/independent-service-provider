@@ -1,0 +1,29 @@
+
+.color{
+    background: #919187;
+}
+
+.socialButton{
+    margin-left: 100px;
+    background: #f3f1f1;
+    color:black;
+    width: 250px;
+    height: 50px;
+    border: none;
+    border-radius: 7px;
+    font-size: 19px;
+    font-family: 'Roboto', sans-serif;
+}
+.googleIcon{
+    width: 30px;
+    margin-top: -5px;
+    margin-right: 5px;
+}
+.github{
+    background: black;
+    color:#fff
+}
+.git{
+    background:white;
+    border-radius: 100px;
+}
