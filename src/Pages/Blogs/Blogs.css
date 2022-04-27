@@ -1,0 +1,50 @@
+.blog{
+    border: 1px solid none;
+    width: 25vw;
+    height:40vh ;
+    background: #ECE6CE;
+    border-radius: 7px;
+    text-align: center;
+    padding: 10px;
+    
+    
+}
+
+.blogs{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;  
+    
+}
+
+
+@media only screen and (min-width:280px) and (max-width:375px){
+    .blog{
+        width: 50%;
+        height: 100vh;
+        
+    }
+}
+
+
+@media only screen and (min-width:376px) and (max-width:576px) {
+    .blog{
+        width: 45%;
+        height: 80vh;
+    }
+}
+
+@media only screen and (min-width:577px) and (max-width:992px) {
+    .blog{
+        width: 40%;
+        height: 40vh;
+    }
+}
+
+
+@media only screen and (min-width:992px) and (max-width:1440px) {
+    .blog{
+        width: 40%;
+        height: 55vh;
+    }
+}

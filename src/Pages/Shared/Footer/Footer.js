@@ -6,8 +6,9 @@ const Footer = () => {
     const today = new Date();
     const year = today.getFullYear()
     return (
-        <footer className='text-center mt-5'>
-           <p><small className='fs-5'>copyright <AtSymbolIcon className='copy'></AtSymbolIcon>  {year}</small></p>
+        <footer className='text-center'>
+           <p className='copyright'><small className='fs-4'>Copyright All rights reserved <AtSymbolIcon className='copy'></AtSymbolIcon>  {year}</small></p>
+           <p className='fs-4'>Degin by Wedding.com</p>
         </footer>
     );
 };
