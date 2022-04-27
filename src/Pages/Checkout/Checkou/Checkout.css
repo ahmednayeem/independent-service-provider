@@ -3,9 +3,44 @@
     color:#fff;
     border-radius: 7px;
     height: 70px;
+    width: 20%;
+    margin: auto;
 }
 .checkout h2{
     margin-left: 30px;
     font-style: italic;
     
+}
+
+
+@media only screen and (min-width:280px) and (max-width:375px){
+    .checkout{
+        height: 10vh; 
+        width: 80%;
+    }
+}
+
+
+@media only screen and (min-width:376px) and (max-width:576px) {
+    .checkout{
+        height: 8vh;
+        width: 80%;
+
+}
+}
+
+@media only screen and (min-width:577px) and (max-width:992px) {
+    .checkout{
+        width: 50%;
+        height: 6vh;
+    }
+}
+
+
+
+@media only screen and (min-width:992px) and (max-width:1440px) {
+    .checkout{
+        width: 40%;
+        height: 10vh;
+    }
 }
